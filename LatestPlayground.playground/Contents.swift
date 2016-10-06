@@ -19,3 +19,17 @@ var occupations = [String: String]()
 occupations["me"] = "bird helper"
 
 occupations
+
+var optionalString: String? = "Hello"
+print(optionalString == nil)
+
+var optionalName: String? = "Jim"
+var greeting = "hey"
+if let name = optionalName {
+    greeting = "hey, /(name)"
+}
+greeting
+
+
+
+
